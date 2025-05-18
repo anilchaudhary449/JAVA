@@ -11,7 +11,7 @@ class Mobile{
         System.out.println(obj.brand+":"+obj.price+":"+name);
     }
 }
-public class Demo{
+public class StaticMethod{
     public static void main(String[] args) {
         Mobile obj1= new Mobile();
         obj1.brand="Apple";
