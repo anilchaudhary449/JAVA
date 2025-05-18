@@ -20,7 +20,7 @@ public class Human_Main {
     public static void main(String[] args) {
     Human obj=new Human();
     obj.setAge(23);
-    obj.setName("Anil");;
+    obj.setName("Anil");
 
     System.out.println(obj.getAge()+":"+obj.getName());
 }
