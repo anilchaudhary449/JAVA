@@ -19,7 +19,10 @@ class Mobile{
     }
 }
 public class StaticBlock{
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws ClassNotFoundException {
+
+       // Class.forName(className:"Mobile";)
         Mobile obj1= new Mobile();
         obj1.brand="Apple";
         obj1.price=1500;
