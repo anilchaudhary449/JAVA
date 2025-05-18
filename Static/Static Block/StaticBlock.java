@@ -28,6 +28,7 @@ public class StaticBlock{
         obj1.price=1500;
         Mobile.name="SmartPhone";
         
+        @SuppressWarnings("unused")
         Mobile obj2=new Mobile();
     }
 }
